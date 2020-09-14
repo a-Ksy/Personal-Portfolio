@@ -1,0 +1,47 @@
+@import "../../sass/variables";
+@import "../../sass/breakpoints.scss";
+
+.Skills {
+    min-height: 100vh;
+    width: 100%;
+    display: inline-block;
+    font-family: "ProximaNovaBold";
+    color: $paragraph;
+
+
+  .SkillType {
+    width: 100%;
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+
+
+  .SkillsTitle {
+        font-size: 5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        transition: 0.3s ease;
+    }
+    
+  @include media ("<=desktop") {
+    .SkillsTitle {
+        font-size: 4rem;
+    }
+  }
+
+  @include media ("<=tablet") {
+    .SkillsTitle {
+        font-size: 2.75rem;
+    }
+  }
+
+  @include media ("<=phone") {
+    .SkillstTitle {
+        font-size: 2rem;
+    }
+
+  }
+
+
+
+}

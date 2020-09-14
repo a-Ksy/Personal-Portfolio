@@ -1,0 +1,62 @@
+@import "../../sass/variables";
+@import "../../sass/breakpoints.scss";
+
+.About {
+    height: 100vh;
+    font-family: "ProximaNovaBold";
+    justify-content: center;
+    align-items: center;
+    color: $paragraph;
+    
+    .AboutTitle {
+        font-size: 5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        transition: 0.3s ease;
+    }
+
+    .AboutParagraph {
+        font-size: 1.3rem;
+        font-family: "ProximaNova";
+        text-align: justify;
+        transition: 0.3s ease;
+        margin:0;
+    }
+    
+    @include media ("<=desktop") {
+      .AboutTitle {
+          font-size: 4rem;
+      }
+
+      .AboutParagraph {
+          font-size: 1.3rem;
+      }
+    }
+
+    @include media ("<=collapse") {
+      .myImage {
+        display: none;
+      }
+    }
+
+    @include media ("<=tablet") {
+      .AboutTitle {
+          font-size: 2.75rem;
+      }
+
+      .AboutParagraph {
+          font-size: 1.25rem;
+      }
+    }
+
+    @include media ("<=phone") {
+      .AboutTitle {
+          font-size: 2rem;
+      }
+
+      .AboutParagraph {
+          font-size: 1rem;
+      }
+    }
+}
+

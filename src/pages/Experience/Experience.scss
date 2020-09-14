@@ -1,0 +1,41 @@
+@import "../../sass/variables";
+@import "../../sass/breakpoints.scss";
+
+.Experience {
+    min-height: 100vh;
+    width: 100%;
+    font-family: "ProximaNovaBold";
+    padding-top: 5rem;
+    display: inline-block;
+    color: $paragraph;
+
+
+    .ExperienceTitle {
+        font-size: 5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        transition: 0.3s ease;
+    }
+
+   
+    
+    @include media ("<=desktop") {
+      .ExperienceTitle {
+          font-size: 4rem;
+      }
+    }
+
+    @include media ("<=tablet") {
+      .ExperienceTitle {
+          font-size: 2.75rem;
+      }
+    }
+
+    @include media ("<=phone") {
+      .ExperienceTitle {
+          font-size: 2rem;
+      }
+
+    }
+}
+

@@ -1,42 +1,18 @@
-$bg_borda: #ff5a00;
-$bg_borda_20: #ff3c0066;
-$bg_borda_10: #ff3c001f;
-$bg_borda_dark: #ff2600;
-$bg_pale_white: #eff0f3;
-$bg_pale_white_80: #eff0f3ee;
-$bg_secondary_white: #fffffe;
-$bg_hover_button: #d8d8d8;
-$bg_hover2_button: #c6c6c6;
-$header_dark: #0D0D0D;
-$paragraph_dark:#2A2A2A; 
-$tertiary: #d9376e;
-$tertiary_dark: #c83365;
+$background: #fffffe;
+$headline: #0d0d0d;
+$paragraph: #2a2a2a;
+$primary: #6246ea;
+$secondary: #d1d1e9;
+$tertiary: #e45858;
+$boxShadow:0 10px 20px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.15);
+$boxShadow2: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.15);
 
-$green: #2cb67d;
-$green_dark: #269e6c;
-
-$blue: #6246ea;
-$blue_dark: #543ccc;
-
-$top_height: 72px;
 
 :export {
-  bg_borda: $bg_borda;
-  bg_borda_20:$bg_borda_20;
-  bg_borda_10:$bg_borda_10;
-  bg_borda_dark: $bg_borda_dark;
-  bg_pale_white: $bg_pale_white;
-  bg_pale_white_80: $bg_pale_white_80;
-  bg_secondary_white: $bg_secondary_white;
-  bg_hover_button: $bg_hover_button;
-  bg_hover2_button: $bg_hover2_button;
-  header_dark: $header_dark;
-  paragraph_dark:$paragraph_dark; 
+  background: $background;
+  headline: $headline;
+  paragraph: $paragraph;
+  primary: $primary;
+  secondary: $secondary;
   tertiary: $tertiary;
-  tertiary_dark: $tertiary_dark;
-  green_dark: $green_dark;
-  green: $green;
-  blue: $blue;
-  blue_dark: $blue_dark;
-
 }

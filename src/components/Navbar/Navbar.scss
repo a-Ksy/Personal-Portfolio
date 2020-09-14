@@ -1,0 +1,44 @@
+@import "../../sass/variables";
+@import "../../sass/breakpoints";
+
+.navbar {
+    padding: 1.5rem;
+    padding-top: 1rem;
+    
+    .nav-item {
+      font-family: "ProximaNovaBold";
+      font-size: 1.2rem;
+      margin-left: 1.5rem;
+      color: $paragraph!important;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .active .nav-item{
+      color: $primary!important;
+    }
+
+    .navbar-toggler {
+      padding:0;
+      border: none;
+      color: $paragraph;
+    }
+
+}
+
+  .bg-custom {
+    background-color: $background!important;
+    padding: 1rem 2rem 1rem 2rem;
+
+  }
+
+@include media ("<collapse") {
+
+  .navbar {
+    .nav-item {
+      margin-left: 0;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import "../../sass/variables";
+@import "../../sass/breakpoints.scss";
+
+.Projects {
+    min-height: 100vh;
+    width: 100%;
+    font-family: "ProximaNovaBold";
+    padding-top: 5rem;
+    display: inline-block;
+    color: $paragraph;
+
+     .ProjectsTitle {
+        font-size: 5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        transition: 0.3s ease;
+    }
+
+    .row {
+        height: inherit;
+    }
+
+    .Project {
+        border-radius: 3px;
+        background-color: $secondary;
+        padding: 2.5rem;
+        margin: 4rem 0 0 0;
+    }
+
+    .ProjectTitle {
+        font-size: 2rem;
+    }
+
+    .ProjectDate {
+        font-size: 1.3rem;
+        color: $paragraph;
+        font-family: "ProximaNova";
+    }
+
+    .ProjectParagraph {
+        font-size: 1.1rem;
+        font-family: "ProximaNova";
+        color: $paragraph;
+        margin-bottom: 1.5rem;
+    }
+
+    a {
+        color: $tertiary;
+        font-size: 1.2rem;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+   
+    img {
+        border-radius: 3px;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+    
+    @include media ("<=desktop") {
+      .ProjectsTitle {
+          font-size: 4rem;
+      }
+    }
+
+    @include media("<=collapse") {
+        img {
+            display: none;
+        }
+    }
+
+    @include media ("<=tablet") {
+      .ProjectsTitle {
+          font-size: 2.75rem;
+      }
+    }
+
+    @include media ("<=phone") {
+      .ProjectsTitle {
+          font-size: 2rem;
+      }
+
+    }
+}

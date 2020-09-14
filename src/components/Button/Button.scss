@@ -1,0 +1,36 @@
+@import "../../sass//variables";
+@import "../../sass//breakpoints.scss";
+
+.Button {
+    background-color: $primary;
+    padding: 1rem;
+    border-radius: 5px;
+    color: $background;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+
+
+}
+
+@include media ("<=tablet") {
+    .Button {
+        font-size: 1.4rem;
+    }
+}
+
+@include media ("<=phone") {
+    .Button {
+        font-size: 1rem;
+    }
+}
+.Button:hover {
+      box-shadow: $boxShadow;
+}
+
+
+button:active, button:focus, button:hover {
+    outline:none;
+    border: none;
+}
