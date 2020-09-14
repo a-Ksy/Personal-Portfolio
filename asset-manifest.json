@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-new/static/css/main.dd5c0987.chunk.css",
+    "main.js": "/portfolio-new/static/js/main.68a54195.chunk.js",
+    "main.js.map": "/portfolio-new/static/js/main.68a54195.chunk.js.map",
+    "runtime-main.js": "/portfolio-new/static/js/runtime-main.5ab306d6.js",
+    "runtime-main.js.map": "/portfolio-new/static/js/runtime-main.5ab306d6.js.map",
+    "static/js/2.ec5ff7f6.chunk.js": "/portfolio-new/static/js/2.ec5ff7f6.chunk.js",
+    "static/js/2.ec5ff7f6.chunk.js.map": "/portfolio-new/static/js/2.ec5ff7f6.chunk.js.map",
+    "index.html": "/portfolio-new/index.html",
+    "precache-manifest.fac86e40895d5137c693cce24cb6b7f8.js": "/portfolio-new/precache-manifest.fac86e40895d5137c693cce24cb6b7f8.js",
+    "service-worker.js": "/portfolio-new/service-worker.js",
+    "static/css/main.dd5c0987.chunk.css.map": "/portfolio-new/static/css/main.dd5c0987.chunk.css.map",
+    "static/js/2.ec5ff7f6.chunk.js.LICENSE.txt": "/portfolio-new/static/js/2.ec5ff7f6.chunk.js.LICENSE.txt",
+    "static/media/AtahanAksoy.pdf": "/portfolio-new/static/media/AtahanAksoy.419d90a8.pdf",
+    "static/media/Proxima Nova Alt Bold.otf": "/portfolio-new/static/media/Proxima Nova Alt Bold.9d62cb9f.otf",
+    "static/media/ProximaNova-Regular.otf": "/portfolio-new/static/media/ProximaNova-Regular.410504d4.otf",
+    "static/media/kugpa.JPG": "/portfolio-new/static/media/kugpa.b1099f31.JPG",
+    "static/media/laborodor.JPG": "/portfolio-new/static/media/laborodor.2ac5d68f.JPG",
+    "static/media/me2.png": "/portfolio-new/static/media/me2.7570ee79.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ab306d6.js",
+    "static/js/2.ec5ff7f6.chunk.js",
+    "static/css/main.dd5c0987.chunk.css",
+    "static/js/main.68a54195.chunk.js"
+  ]
+}
