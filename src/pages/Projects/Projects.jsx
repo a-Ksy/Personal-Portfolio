@@ -3,9 +3,10 @@ import React from 'react';
 import { projectsText } from '../../constants/text';
 import kugpa from '../../assets/kugpa.JPG';
 import laborodor from '../../assets/laborodor.JPG';
+import codenames from '../../assets/codenames.jpg';
 import './Projects.scss';
 
-const images = [kugpa, laborodor];
+const images = [kugpa, laborodor, codenames];
 
 function Projects() {
   return (

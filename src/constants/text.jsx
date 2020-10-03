@@ -115,5 +115,16 @@ export const projectsText = {
       date: 'Jun 2020 - Jul 2020',
       link: 'https://a-ksy.github.io/laborodor/',
     },
+    {
+      index: 2,
+      title: 'Codenames',
+      paragraph: `
+      Codenames is a 2015 card game for 4–8 players designed by Vlaada Chvátil and published by Czech Games Edition. 
+      Two teams compete by each having a "spymaster" give one-word clues that can point to multiple words on the board. 
+      The other players on the team attempt to guess their team's words while avoiding the words of the other team.
+      We made a clone of this board game using Spring Boot for the backend and React.js for the frontend.`,
+      date: 'Sep 2020 – Oct 2020',
+      link: 'https://github.com/a-Ksy/codenames-clone',
+    },
   ],
 };

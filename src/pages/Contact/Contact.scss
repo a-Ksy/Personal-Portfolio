@@ -15,16 +15,15 @@
         align-items: center;
     }
 
-    
     #socialIcon {
-        height:100px!important;
-        width:100px!important;
+        height: 100px !important;
+        width: 100px !important;
         transition: 0.3s ease;
     }
 
     #CVIcon {
-        height:100px!important;
-        width:100px!important;
+        height: 100px !important;
+        width: 100px !important;
         text-align: center;
         line-height: 6.5rem;
         color: white;
@@ -32,7 +31,7 @@
         background-color: $primary;
         font-family: "ProximaNovaBold" !important;
         font-size: 2rem;
-        transition: 0.3s ease; 
+        transition: 0.3s ease;
     }
 
     #CVIcon:hover {
@@ -40,57 +39,58 @@
         color: white;
     }
 
-
-     .ContactTitle {
+    .ContactTitle {
         font-size: 5rem;
         width: 100%;
         margin-bottom: 2rem;
         transition: 0.3s ease;
     }
 
-    
-    @include media ("<=desktop") {
-      .ContactTitle {
-          font-size: 4rem;
-      }
+    @include media("<=desktop") {
+        .ContactTitle {
+            font-size: 4rem;
+        }
     }
 
-    @include media ("<=collapse") {
+    @include media("<=collapse") {
         #socialIcon {
-        height:50px!important;
-        width:50px!important;
-        margin-right: 2rem!important;
+            height: 50px !important;
+            width: 50px !important;
+            margin-right: 2rem !important;
+        }
+
+        #CVIcon {
+            height: 50px !important;
+            width: 50px !important;
+            line-height: 3.5rem;
+            font-size: 1.5rem;
+            margin-right: 2rem !important;
+        }
     }
 
-    #CVIcon {
-        height:50px!important;
-        width:50px!important;
-        line-height: 3.5rem;
-        font-size: 1.5rem;
-        margin-right: 2rem!important;
-    }
+    @include media("<=tablet") {
+        .ContactTitle {
+            font-size: 2.75rem;
+        }
+        #socialIcon {
+            margin-right: 1rem !important;
+        }
+
+        #CVIcon {
+            margin-right: 1rem !important;
+        }
+
+        .iconBlock {
+            width:100%;
+        }
     }
 
-
-    @include media ("<=tablet") {
-      .ContactTitle {
-          font-size: 2.75rem;
-      }
-          #socialIcon {
-        margin-right: 1rem!important;
-    }
-
-    #CVIcon {
-        margin-right: 1rem!important;
-    }
-    }
-
-    @include media ("<=phone") {
-      .ContactTitle {
-          font-size: 2rem;
-      }
-    .iconBlock {
-        justify-content: flex-start;
-    }
+    @include media("<=phone") {
+        .ContactTitle {
+            font-size: 2rem;
+        }
+        .iconBlock {
+            justify-content: flex-start;
+        }
     }
 }
