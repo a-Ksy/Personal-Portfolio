@@ -22,7 +22,7 @@ export const aboutText = {
 
 export const skillsText = {
   title: 'My skills',
-  technicalData: ['React.js', 'Flask', 'ASP.NET Core', 'AWS', 'Python', 'Java', 'Javascript', 'C#', 'HTML', 'CSS & SCSS', 'SQL'],
+  technicalData: ['React.js', 'Flask', 'Spring Boot', 'AWS', 'Python', 'Java', 'Javascript', 'C#', 'HTML', 'CSS & SCSS', 'SQL'],
   sectoralData: ['Web Scraping', 'Graphic Design', 'UI & UX', 'Music Production'],
   softData: ['Marketing', 'Analytical Skills', 'Project Management', 'Teamwork', 'Leadership'],
   languageData: ['Turkish', 'English'],
