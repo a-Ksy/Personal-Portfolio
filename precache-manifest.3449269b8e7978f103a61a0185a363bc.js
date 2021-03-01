@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da8e1e2901acd0c14ecbf65433d762d1",
+    "revision": "4e96b83558555a5c4698a85dc39ed571",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f889c3e931b5dd180d28",
+    "revision": "84e8f782f502cc4d0af9",
     "url": "/portfolio/static/css/main.d7d2b637.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3109e66c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f889c3e931b5dd180d28",
-    "url": "/portfolio/static/js/main.583ad579.chunk.js"
+    "revision": "84e8f782f502cc4d0af9",
+    "url": "/portfolio/static/js/main.cef602e4.chunk.js"
   },
   {
     "revision": "3b96840b89a513097509",
     "url": "/portfolio/static/js/runtime-main.1cf12fbe.js"
   },
   {
-    "revision": "0e10a701ecf56dfa0c3c8c49d1f9be4e",
-    "url": "/portfolio/static/media/AtahanAksoy.0e10a701.pdf"
+    "revision": "96b28161386b87f5630374a30a6ef248",
+    "url": "/portfolio/static/media/AtahanAksoy.96b28161.pdf"
   },
   {
     "revision": "9d62cb9fcefe1cb94d2d90553cbef3f1",
